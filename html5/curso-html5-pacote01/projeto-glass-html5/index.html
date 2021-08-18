@@ -1,86 +1,44 @@
 <!DOCTYPE html>
 <HTML lang="PT-BR">
-<head>
-  <meta charset="utf-8">
-  <title>Revisão html/css c/ G.Guanabara/cursoemvideo</title>
-  <style>
-    body {
-      background-color: rgb(161, 176, 182);
-      color: black;
-    }
-    p {
-      text-align: justify;
-      text-indent: 50px;
-    }
-  </style>
-</head>  
-<body>
-  <header>
-   <hgroup>   
-    <h1>Google Glass</h1>    
-    <h2>A revolução do Google está chegando</h2>
-   </hgroup> 
-   <img src="_imagens/glass-oculos-preto-peq.png">
+  <head>
+     <meta charset="utf-8">
+     <title>Revisão html/css c/ G.Guanabara/cursoemvideo</title>
+     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+     
   
-<!--símbolos/tags especiais:
+  </head>  
+<body>
+  <div id="interface">
+   <header id="cabecalho">
+         <hgroup>   
+            <h1>Google Glass</h1>    
+            <h2>A revolução do Google está chegando</h2>
+         </hgroup> 
+       <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
+  
 
-    &lt; < menor que
-    &gt; > maior que
-    &le; >= maior igual a
-    &ge; <= menor igual a
+    <nav id="menu">
+       <h1> Menu Principal</h1>
+       <ul type="disc">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="specs.html" >Especificações</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="multimidia.html">Multimídia</a></li>
+          <li><a href="fale-conosco.html">Fale conosco</a></li>
+       </ul>
+      </nav> 
+  </header>
 
-    símbolos monetáios:
-    &pound= Libras
-    &yen= Iene
-    &euro= Euro
 
-    &copy; copyright
-    &reg; marca registrada
-    &trade; 
-    &permil; porcentagem/1000
-    &sum; soma
-    &infin; infinito
-    &time; multiplicação
-    &plusmn;  mais ou menos
-    &oplus; o mais dentro de uma circuferência
-    &radic; raiz quadrada
-    &ne; diferente 
-
-    letras gregas:
-    &delta;
-    &lambda;
-    &omega;
-    &phi;
- 
-    setas:
-    &larr; seta para esquerda
-    &rarr; seta para direita 
-    &uarr; seta para cima 
-    &darr; seta para baixo
-    &harr; seta para os dois lados 
-
-    &spades;
-    &clubs;
-    &hearts;
-    &diams;
-
--->
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
-</header>
 <hgroup>
-<h3>Tecnologia > &nbsp; Inovações</h3>
+<h3>Tecnologia  &nbsp; Inovações</h3>
 <h1>Saiba tudo sobre o Google Glass</h1>
 <H2>por Gustavo Guanabara</H2>
 <h3>Atualizado em 23/Abril/2013</h3>
 </hgroup>
 
 <h2>O que é </h2>
-<figure>
+<figure class="foto-legenda">
   <img src=" _imagens/glass-quadro-homem-mulher.jpg" >
   <figcaption>
     <h3>Google Glass</h3>
@@ -88,7 +46,7 @@ Menu Principal
   </figcaption>
 </figure>
 
-<p> O  Google Glass  é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass,</i> o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo<wbr/>con<wbr/>ferên<wbr/>cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+<p> O  Google Glass  é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="http://glass.google.com" target="_blank"> Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo<wbr/>con<wbr/>ferên<wbr/>cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 
 [AQUI ENTRA UMA FOTO]
 
